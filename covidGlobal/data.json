@@ -1,0 +1,3249 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "Last_Updat" : "Last_Updat",
+    "OBJECTID" : "OBJECTID",
+    "Country_Re" : "Country_Re",
+    "Confirmed" : "Confirmed",
+    "Deaths" : "Deaths",
+    "Recovered" : "Recovered",
+    "Latitude" : "Latitude",
+    "Longitude" : "Longitude"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326,
+    "latestWkid" : 4326
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "Last_Updat",
+      "type" : "esriFieldTypeDate",
+      "alias" : "Last_Updat",
+      "length" : 8
+    },
+    {
+      "name" : "OBJECTID",
+      "type" : "esriFieldTypeSmallInteger",
+      "alias" : "OBJECTID"
+    },
+    {
+      "name" : "Country_Re",
+      "type" : "esriFieldTypeString",
+      "alias" : "Country_Re",
+      "length" : 32
+    },
+    {
+      "name" : "Confirmed",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "Confirmed"
+    },
+    {
+      "name" : "Deaths",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "Deaths"
+    },
+    {
+      "name" : "Recovered",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "Recovered"
+    },
+    {
+      "name" : "Latitude",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Latitude"
+    },
+    {
+      "name" : "Longitude",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Longitude"
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 1,
+        "Country_Re" : "Australia",
+        "Confirmed" : 6966,
+        "Deaths" : 97,
+        "Recovered" : 6231,
+        "Latitude" : -25.0,
+        "Longitude" : 133.0
+      },
+      "geometry" : {
+        "x" : 133,
+        "y" : -24.999999999999901
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 2,
+        "Country_Re" : "Austria",
+        "Confirmed" : 15961,
+        "Deaths" : 623,
+        "Recovered" : 14148,
+        "Latitude" : 47.516199999999998,
+        "Longitude" : 14.5501
+      },
+      "geometry" : {
+        "x" : 14.5501,
+        "y" : 47.516199999999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 3,
+        "Country_Re" : "Canada",
+        "Confirmed" : 71303,
+        "Deaths" : 5118,
+        "Recovered" : 33364,
+        "Latitude" : 60.000999999999998,
+        "Longitude" : -95.001000000000005
+      },
+      "geometry" : {
+        "x" : -95.001000000000005,
+        "y" : 60.000999999999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 4,
+        "Country_Re" : "China",
+        "Confirmed" : 84011,
+        "Deaths" : 4637,
+        "Recovered" : 79208,
+        "Latitude" : 30.5928,
+        "Longitude" : 114.305499999999995
+      },
+      "geometry" : {
+        "x" : 114.30549999999999,
+        "y" : 30.5928000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 5,
+        "Country_Re" : "Denmark",
+        "Confirmed" : 10789,
+        "Deaths" : 533,
+        "Recovered" : 8526,
+        "Latitude" : 56.0,
+        "Longitude" : 10.0
+      },
+      "geometry" : {
+        "x" : 10.000000000000099,
+        "y" : 56.000000000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 6,
+        "Country_Re" : "Finland",
+        "Confirmed" : 6003,
+        "Deaths" : 275,
+        "Recovered" : 4300,
+        "Latitude" : 61.924100000000003,
+        "Longitude" : 25.748200000000001
+      },
+      "geometry" : {
+        "x" : 25.7482000000001,
+        "y" : 61.924100000000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 7,
+        "Country_Re" : "France",
+        "Confirmed" : 177547,
+        "Deaths" : 26646,
+        "Recovered" : 56835,
+        "Latitude" : 46.227600000000002,
+        "Longitude" : 2.2137
+      },
+      "geometry" : {
+        "x" : 2.2137000000000699,
+        "y" : 46.227600000000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 8,
+        "Country_Re" : "Germany",
+        "Confirmed" : 172812,
+        "Deaths" : 7676,
+        "Recovered" : 147200,
+        "Latitude" : 51.165700000000001,
+        "Longitude" : 10.451499999999999
+      },
+      "geometry" : {
+        "x" : 10.451500000000101,
+        "y" : 51.165700000000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 9,
+        "Country_Re" : "Iceland",
+        "Confirmed" : 1801,
+        "Deaths" : 10,
+        "Recovered" : 1776,
+        "Latitude" : 64.963099999999997,
+        "Longitude" : -19.020800000000001
+      },
+      "geometry" : {
+        "x" : -19.020800000000001,
+        "y" : 64.963100000000097
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 10,
+        "Country_Re" : "Ireland",
+        "Confirmed" : 23135,
+        "Deaths" : 1467,
+        "Recovered" : 17110,
+        "Latitude" : 53.142400000000002,
+        "Longitude" : -7.6921
+      },
+      "geometry" : {
+        "x" : -7.6920999999999298,
+        "y" : 53.142400000000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 11,
+        "Country_Re" : "Italy",
+        "Confirmed" : 221216,
+        "Deaths" : 30911,
+        "Recovered" : 109039,
+        "Latitude" : 41.871899999999997,
+        "Longitude" : 12.567399999999999
+      },
+      "geometry" : {
+        "x" : 12.5674000000001,
+        "y" : 41.871899999999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 12,
+        "Country_Re" : "Netherlands",
+        "Confirmed" : 43183,
+        "Deaths" : 5529,
+        "Recovered" : 149,
+        "Latitude" : 52.316699999999997,
+        "Longitude" : 5.55
+      },
+      "geometry" : {
+        "x" : 5.55000000000007,
+        "y" : 52.316699999999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 13,
+        "Country_Re" : "Norway",
+        "Confirmed" : 8132,
+        "Deaths" : 224,
+        "Recovered" : 32,
+        "Latitude" : 60.472000000000001,
+        "Longitude" : 8.4689
+      },
+      "geometry" : {
+        "x" : 8.4689000000000796,
+        "y" : 60.472000000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 14,
+        "Country_Re" : "Russia",
+        "Confirmed" : 232243,
+        "Deaths" : 2116,
+        "Recovered" : 43512,
+        "Latitude" : 61.524000000000001,
+        "Longitude" : 105.318799999999996
+      },
+      "geometry" : {
+        "x" : 105.3188,
+        "y" : 61.5240000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 15,
+        "Country_Re" : "Sweden",
+        "Confirmed" : 27272,
+        "Deaths" : 3313,
+        "Recovered" : 4971,
+        "Latitude" : 60.1282,
+        "Longitude" : 18.6435
+      },
+      "geometry" : {
+        "x" : 18.643500000000099,
+        "y" : 60.1282
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 16,
+        "Country_Re" : "Switzerland",
+        "Confirmed" : 30380,
+        "Deaths" : 1867,
+        "Recovered" : 26800,
+        "Latitude" : 46.818199999999997,
+        "Longitude" : 8.227499999999999
+      },
+      "geometry" : {
+        "x" : 8.2275000000000205,
+        "y" : 46.818199999999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 17,
+        "Country_Re" : "United Kingdom",
+        "Confirmed" : 227735,
+        "Deaths" : 32768,
+        "Recovered" : 1015,
+        "Latitude" : 55.0,
+        "Longitude" : -3.0
+      },
+      "geometry" : {
+        "x" : -2.99999999999994,
+        "y" : 55.000000000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 18,
+        "Country_Re" : "US",
+        "Confirmed" : 1354504,
+        "Deaths" : 81076,
+        "Recovered" : 232733,
+        "Latitude" : 40.0,
+        "Longitude" : -100.0
+      },
+      "geometry" : {
+        "x" : -99.999999999999901,
+        "y" : 40.000000000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 19,
+        "Country_Re" : "Afghanistan",
+        "Confirmed" : 4963,
+        "Deaths" : 127,
+        "Recovered" : 610,
+        "Latitude" : 33.939109999999999,
+        "Longitude" : 67.709952999999999
+      },
+      "geometry" : {
+        "x" : 67.709952999999999,
+        "y" : 33.939109999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 20,
+        "Country_Re" : "Albania",
+        "Confirmed" : 876,
+        "Deaths" : 31,
+        "Recovered" : 682,
+        "Latitude" : 41.153300000000002,
+        "Longitude" : 20.168299999999999
+      },
+      "geometry" : {
+        "x" : 20.168299999999999,
+        "y" : 41.153300000000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 21,
+        "Country_Re" : "Algeria",
+        "Confirmed" : 6067,
+        "Deaths" : 515,
+        "Recovered" : 2998,
+        "Latitude" : 28.033899999999999,
+        "Longitude" : 1.6596
+      },
+      "geometry" : {
+        "x" : 1.6596000000000699,
+        "y" : 28.033900000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 22,
+        "Country_Re" : "Andorra",
+        "Confirmed" : 755,
+        "Deaths" : 48,
+        "Recovered" : 550,
+        "Latitude" : 42.506300000000003,
+        "Longitude" : 1.5218
+      },
+      "geometry" : {
+        "x" : 1.52180000000004,
+        "y" : 42.506300000000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 23,
+        "Country_Re" : "Angola",
+        "Confirmed" : 45,
+        "Deaths" : 2,
+        "Recovered" : 13,
+        "Latitude" : -11.2027,
+        "Longitude" : 17.873899999999999
+      },
+      "geometry" : {
+        "x" : 17.873899999999999,
+        "y" : -11.202699999999901
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 24,
+        "Country_Re" : "Antigua and Barbuda",
+        "Confirmed" : 25,
+        "Deaths" : 3,
+        "Recovered" : 19,
+        "Latitude" : 17.0608,
+        "Longitude" : -61.796399999999998
+      },
+      "geometry" : {
+        "x" : -61.796399999999899,
+        "y" : 17.0608
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 25,
+        "Country_Re" : "Argentina",
+        "Confirmed" : 6278,
+        "Deaths" : 317,
+        "Recovered" : 1862,
+        "Latitude" : -38.4161,
+        "Longitude" : -63.616700000000002
+      },
+      "geometry" : {
+        "x" : -63.616700000000002,
+        "y" : -38.4161
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 26,
+        "Country_Re" : "Armenia",
+        "Confirmed" : 3538,
+        "Deaths" : 47,
+        "Recovered" : 1430,
+        "Latitude" : 40.069099999999999,
+        "Longitude" : 45.038200000000003
+      },
+      "geometry" : {
+        "x" : 45.038200000000103,
+        "y" : 40.069099999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 27,
+        "Country_Re" : "Azerbaijan",
+        "Confirmed" : 2589,
+        "Deaths" : 32,
+        "Recovered" : 1680,
+        "Latitude" : 40.143099999999997,
+        "Longitude" : 47.576900000000002
+      },
+      "geometry" : {
+        "x" : 47.576900000000101,
+        "y" : 40.143100000000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 28,
+        "Country_Re" : "Bahamas",
+        "Confirmed" : 93,
+        "Deaths" : 11,
+        "Recovered" : 39,
+        "Latitude" : 25.025884999999999,
+        "Longitude" : -78.035888999999997
+      },
+      "geometry" : {
+        "x" : -78.035888999999898,
+        "y" : 25.025885000000098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 29,
+        "Country_Re" : "Bahrain",
+        "Confirmed" : 5409,
+        "Deaths" : 9,
+        "Recovered" : 2182,
+        "Latitude" : 26.0275,
+        "Longitude" : 50.549999999999997
+      },
+      "geometry" : {
+        "x" : 50.550000000000097,
+        "y" : 26.0275
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 30,
+        "Country_Re" : "Bangladesh",
+        "Confirmed" : 16660,
+        "Deaths" : 250,
+        "Recovered" : 3147,
+        "Latitude" : 23.684999999999999,
+        "Longitude" : 90.356300000000005
+      },
+      "geometry" : {
+        "x" : 90.356300000000005,
+        "y" : 23.685000000000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 31,
+        "Country_Re" : "Barbados",
+        "Confirmed" : 84,
+        "Deaths" : 7,
+        "Recovered" : 57,
+        "Latitude" : 13.193899999999999,
+        "Longitude" : -59.543199999999999
+      },
+      "geometry" : {
+        "x" : -59.543199999999999,
+        "y" : 13.193899999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 32,
+        "Country_Re" : "Belarus",
+        "Confirmed" : 24873,
+        "Deaths" : 142,
+        "Recovered" : 6974,
+        "Latitude" : 53.709800000000001,
+        "Longitude" : 27.953399999999998
+      },
+      "geometry" : {
+        "x" : 27.953399999999998,
+        "y" : 53.709800000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 33,
+        "Country_Re" : "Belgium",
+        "Confirmed" : 53779,
+        "Deaths" : 8761,
+        "Recovered" : 13732,
+        "Latitude" : 50.833300000000001,
+        "Longitude" : 4.469936
+      },
+      "geometry" : {
+        "x" : 4.4699360000000796,
+        "y" : 50.833300000000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 34,
+        "Country_Re" : "Belize",
+        "Confirmed" : 18,
+        "Deaths" : 2,
+        "Recovered" : 16,
+        "Latitude" : 17.189900000000002,
+        "Longitude" : -88.497600000000006
+      },
+      "geometry" : {
+        "x" : -88.497600000000006,
+        "y" : 17.189900000000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 35,
+        "Country_Re" : "Benin",
+        "Confirmed" : 327,
+        "Deaths" : 2,
+        "Recovered" : 76,
+        "Latitude" : 9.307700000000001,
+        "Longitude" : 2.3158
+      },
+      "geometry" : {
+        "x" : 2.3158000000000198,
+        "y" : 9.3077000000000698
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 36,
+        "Country_Re" : "Bhutan",
+        "Confirmed" : 11,
+        "Deaths" : 0,
+        "Recovered" : 5,
+        "Latitude" : 27.514199999999999,
+        "Longitude" : 90.433599999999998
+      },
+      "geometry" : {
+        "x" : 90.433600000000098,
+        "y" : 27.514200000000098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 37,
+        "Country_Re" : "Bolivia",
+        "Confirmed" : 2831,
+        "Deaths" : 122,
+        "Recovered" : 299,
+        "Latitude" : -16.290199999999999,
+        "Longitude" : -63.588700000000003
+      },
+      "geometry" : {
+        "x" : -63.588700000000003,
+        "y" : -16.290199999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 38,
+        "Country_Re" : "Bosnia and Herzegovina",
+        "Confirmed" : 2158,
+        "Deaths" : 117,
+        "Recovered" : 1168,
+        "Latitude" : 43.915900000000001,
+        "Longitude" : 17.679099999999998
+      },
+      "geometry" : {
+        "x" : 17.679100000000101,
+        "y" : 43.9159000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 39,
+        "Country_Re" : "Botswana",
+        "Confirmed" : 24,
+        "Deaths" : 1,
+        "Recovered" : 12,
+        "Latitude" : -22.328499999999998,
+        "Longitude" : 24.684899999999999
+      },
+      "geometry" : {
+        "x" : 24.684899999999999,
+        "y" : -22.328499999999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 40,
+        "Country_Re" : "Brazil",
+        "Confirmed" : 170582,
+        "Deaths" : 11772,
+        "Recovered" : 67384,
+        "Latitude" : -14.234999999999999,
+        "Longitude" : -51.9253
+      },
+      "geometry" : {
+        "x" : -51.925299999999901,
+        "y" : -14.234999999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 41,
+        "Country_Re" : "Brunei",
+        "Confirmed" : 141,
+        "Deaths" : 1,
+        "Recovered" : 134,
+        "Latitude" : 4.5353,
+        "Longitude" : 114.727699999999999
+      },
+      "geometry" : {
+        "x" : 114.7277,
+        "y" : 4.5353000000000598
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 42,
+        "Country_Re" : "Bulgaria",
+        "Confirmed" : 2023,
+        "Deaths" : 95,
+        "Recovered" : 476,
+        "Latitude" : 42.733899999999998,
+        "Longitude" : 25.485800000000001
+      },
+      "geometry" : {
+        "x" : 25.485800000000001,
+        "y" : 42.733900000000098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 43,
+        "Country_Re" : "Burkina Faso",
+        "Confirmed" : 760,
+        "Deaths" : 50,
+        "Recovered" : 584,
+        "Latitude" : 12.238300000000001,
+        "Longitude" : -1.5616
+      },
+      "geometry" : {
+        "x" : -1.5615999999999399,
+        "y" : 12.238300000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 44,
+        "Country_Re" : "Burma",
+        "Confirmed" : 180,
+        "Deaths" : 6,
+        "Recovered" : 74,
+        "Latitude" : 21.9162,
+        "Longitude" : 95.956000000000003
+      },
+      "geometry" : {
+        "x" : 95.956000000000103,
+        "y" : 21.916200000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 45,
+        "Country_Re" : "Burundi",
+        "Confirmed" : 15,
+        "Deaths" : 1,
+        "Recovered" : 7,
+        "Latitude" : -3.3731,
+        "Longitude" : 29.918900000000001
+      },
+      "geometry" : {
+        "x" : 29.9189000000001,
+        "y" : -3.3730999999999698
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 46,
+        "Country_Re" : "Cabo Verde",
+        "Confirmed" : 267,
+        "Deaths" : 2,
+        "Recovered" : 58,
+        "Latitude" : 16.538799999999998,
+        "Longitude" : -23.041799999999999
+      },
+      "geometry" : {
+        "x" : -23.041799999999999,
+        "y" : 16.538799999999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 47,
+        "Country_Re" : "Cambodia",
+        "Confirmed" : 122,
+        "Deaths" : 0,
+        "Recovered" : 121,
+        "Latitude" : 11.550000000000001,
+        "Longitude" : 104.916700000000006
+      },
+      "geometry" : {
+        "x" : 104.91670000000001,
+        "y" : 11.5500000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 48,
+        "Country_Re" : "Cameroon",
+        "Confirmed" : 2689,
+        "Deaths" : 125,
+        "Recovered" : 1524,
+        "Latitude" : 3.848,
+        "Longitude" : 11.5021
+      },
+      "geometry" : {
+        "x" : 11.5021,
+        "y" : 3.84800000000007
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 49,
+        "Country_Re" : "Central African Republic",
+        "Confirmed" : 143,
+        "Deaths" : 0,
+        "Recovered" : 10,
+        "Latitude" : 6.6111,
+        "Longitude" : 20.939399999999999
+      },
+      "geometry" : {
+        "x" : 20.939399999999999,
+        "y" : 6.61110000000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 50,
+        "Country_Re" : "Chad",
+        "Confirmed" : 322,
+        "Deaths" : 31,
+        "Recovered" : 53,
+        "Latitude" : 15.4542,
+        "Longitude" : 18.732199999999999
+      },
+      "geometry" : {
+        "x" : 18.732199999999999,
+        "y" : 15.4542000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 51,
+        "Country_Re" : "Chile",
+        "Confirmed" : 31721,
+        "Deaths" : 335,
+        "Recovered" : 14125,
+        "Latitude" : -35.6751,
+        "Longitude" : -71.543000000000006
+      },
+      "geometry" : {
+        "x" : -71.543000000000006,
+        "y" : -35.675099999999901
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 52,
+        "Country_Re" : "Colombia",
+        "Confirmed" : 11613,
+        "Deaths" : 479,
+        "Recovered" : 2825,
+        "Latitude" : 4.5709,
+        "Longitude" : -74.297300000000007
+      },
+      "geometry" : {
+        "x" : -74.297300000000007,
+        "y" : 4.5709000000000497
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 53,
+        "Country_Re" : "Comoros",
+        "Confirmed" : 11,
+        "Deaths" : 1,
+        "Recovered" : 0,
+        "Latitude" : -11.6455,
+        "Longitude" : 43.333300000000001
+      },
+      "geometry" : {
+        "x" : 43.333300000000101,
+        "y" : -11.6455
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 54,
+        "Country_Re" : "Congo (Brazzaville)",
+        "Confirmed" : 333,
+        "Deaths" : 11,
+        "Recovered" : 53,
+        "Latitude" : -4.2634,
+        "Longitude" : 15.283200000000001
+      },
+      "geometry" : {
+        "x" : 15.283200000000001,
+        "y" : -4.2633999999999297
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 55,
+        "Country_Re" : "Congo (Kinshasa)",
+        "Confirmed" : 1102,
+        "Deaths" : 44,
+        "Recovered" : 146,
+        "Latitude" : -4.322447,
+        "Longitude" : 15.307045
+      },
+      "geometry" : {
+        "x" : 15.3070450000001,
+        "y" : -4.3224469999999497
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 56,
+        "Country_Re" : "Costa Rica",
+        "Confirmed" : 801,
+        "Deaths" : 7,
+        "Recovered" : 517,
+        "Latitude" : 9.748900000000001,
+        "Longitude" : -83.753399999999999
+      },
+      "geometry" : {
+        "x" : -83.7533999999999,
+        "y" : 9.7489000000000505
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 56,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 57,
+        "Country_Re" : "Cote d'Ivoire",
+        "Confirmed" : 1730,
+        "Deaths" : 21,
+        "Recovered" : 818,
+        "Latitude" : 7.54,
+        "Longitude" : -5.5471
+      },
+      "geometry" : {
+        "x" : -5.54709999999994,
+        "y" : 7.5400000000000196
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 57,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 58,
+        "Country_Re" : "Croatia",
+        "Confirmed" : 2207,
+        "Deaths" : 91,
+        "Recovered" : 1808,
+        "Latitude" : 45.100000000000001,
+        "Longitude" : 15.199999999999999
+      },
+      "geometry" : {
+        "x" : 15.199999999999999,
+        "y" : 45.100000000000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 58,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 59,
+        "Country_Re" : "Cuba",
+        "Confirmed" : 1783,
+        "Deaths" : 77,
+        "Recovered" : 1229,
+        "Latitude" : 21.521757000000001,
+        "Longitude" : -77.781166999999996
+      },
+      "geometry" : {
+        "x" : -77.781166999999996,
+        "y" : 21.521757000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 59,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 60,
+        "Country_Re" : "Cyprus",
+        "Confirmed" : 903,
+        "Deaths" : 16,
+        "Recovered" : 401,
+        "Latitude" : 35.126399999999997,
+        "Longitude" : 33.429900000000004
+      },
+      "geometry" : {
+        "x" : 33.429900000000004,
+        "y" : 35.126399999999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 60,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 61,
+        "Country_Re" : "Czechia",
+        "Confirmed" : 8177,
+        "Deaths" : 283,
+        "Recovered" : 4738,
+        "Latitude" : 49.817500000000003,
+        "Longitude" : 15.473000000000001
+      },
+      "geometry" : {
+        "x" : 15.4730000000001,
+        "y" : 49.817500000000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 61,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 62,
+        "Country_Re" : "Diamond Princess",
+        "Confirmed" : 712,
+        "Deaths" : 13,
+        "Recovered" : 651,
+        "Latitude" : 0.0,
+        "Longitude" : 0.0
+      },
+      "geometry" : {
+        "x" : "NaN",
+        "y" : "NaN"
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 62,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 63,
+        "Country_Re" : "Djibouti",
+        "Confirmed" : 1227,
+        "Deaths" : 3,
+        "Recovered" : 872,
+        "Latitude" : 11.825100000000001,
+        "Longitude" : 42.590299999999999
+      },
+      "geometry" : {
+        "x" : 42.590300000000099,
+        "y" : 11.8251000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 63,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 64,
+        "Country_Re" : "Dominica",
+        "Confirmed" : 16,
+        "Deaths" : 0,
+        "Recovered" : 15,
+        "Latitude" : 15.414999999999999,
+        "Longitude" : -61.371000000000002
+      },
+      "geometry" : {
+        "x" : -61.371000000000002,
+        "y" : 15.4150000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 64,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 65,
+        "Country_Re" : "Dominican Republic",
+        "Confirmed" : 10900,
+        "Deaths" : 402,
+        "Recovered" : 3221,
+        "Latitude" : 18.735700000000001,
+        "Longitude" : -70.162700000000001
+      },
+      "geometry" : {
+        "x" : -70.162700000000001,
+        "y" : 18.735700000000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 65,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 66,
+        "Country_Re" : "Ecuador",
+        "Confirmed" : 29509,
+        "Deaths" : 2145,
+        "Recovered" : 3433,
+        "Latitude" : -1.8312,
+        "Longitude" : -78.183400000000006
+      },
+      "geometry" : {
+        "x" : -78.183399999999907,
+        "y" : -1.83119999999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 66,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 67,
+        "Country_Re" : "Egypt",
+        "Confirmed" : 9746,
+        "Deaths" : 533,
+        "Recovered" : 2172,
+        "Latitude" : 26.820553,
+        "Longitude" : 30.802498
+      },
+      "geometry" : {
+        "x" : 30.802498000000099,
+        "y" : 26.8205530000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 67,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 68,
+        "Country_Re" : "El Salvador",
+        "Confirmed" : 998,
+        "Deaths" : 18,
+        "Recovered" : 349,
+        "Latitude" : 13.7942,
+        "Longitude" : -88.896500000000003
+      },
+      "geometry" : {
+        "x" : -88.896499999999904,
+        "y" : 13.7942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 68,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 69,
+        "Country_Re" : "Equatorial Guinea",
+        "Confirmed" : 439,
+        "Deaths" : 4,
+        "Recovered" : 13,
+        "Latitude" : 1.6508,
+        "Longitude" : 10.267899999999999
+      },
+      "geometry" : {
+        "x" : 10.2679000000001,
+        "y" : 1.65080000000006
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 69,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 70,
+        "Country_Re" : "Eritrea",
+        "Confirmed" : 39,
+        "Deaths" : 0,
+        "Recovered" : 38,
+        "Latitude" : 15.179399999999999,
+        "Longitude" : 39.782299999999999
+      },
+      "geometry" : {
+        "x" : 39.782300000000099,
+        "y" : 15.179399999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 70,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 71,
+        "Country_Re" : "Estonia",
+        "Confirmed" : 1746,
+        "Deaths" : 61,
+        "Recovered" : 777,
+        "Latitude" : 58.595300000000002,
+        "Longitude" : 25.0136
+      },
+      "geometry" : {
+        "x" : 25.0136000000001,
+        "y" : 58.595300000000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 71,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 72,
+        "Country_Re" : "Eswatini",
+        "Confirmed" : 175,
+        "Deaths" : 2,
+        "Recovered" : 28,
+        "Latitude" : -26.522500000000001,
+        "Longitude" : 31.465900000000001
+      },
+      "geometry" : {
+        "x" : 31.465900000000001,
+        "y" : -26.522500000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 72,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 73,
+        "Country_Re" : "Ethiopia",
+        "Confirmed" : 261,
+        "Deaths" : 5,
+        "Recovered" : 106,
+        "Latitude" : 9.145,
+        "Longitude" : 40.489699999999999
+      },
+      "geometry" : {
+        "x" : 40.489699999999999,
+        "y" : 9.1450000000000404
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 73,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 74,
+        "Country_Re" : "Fiji",
+        "Confirmed" : 18,
+        "Deaths" : 0,
+        "Recovered" : 14,
+        "Latitude" : -17.7134,
+        "Longitude" : 178.064999999999998
+      },
+      "geometry" : {
+        "x" : 178.065,
+        "y" : -17.7134
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 74,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 75,
+        "Country_Re" : "Gabon",
+        "Confirmed" : 802,
+        "Deaths" : 9,
+        "Recovered" : 127,
+        "Latitude" : -0.8037,
+        "Longitude" : 11.609400000000001
+      },
+      "geometry" : {
+        "x" : 11.6094000000001,
+        "y" : -0.80369999999993502
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 75,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 76,
+        "Country_Re" : "Gambia",
+        "Confirmed" : 22,
+        "Deaths" : 1,
+        "Recovered" : 10,
+        "Latitude" : 13.443199999999999,
+        "Longitude" : -15.3101
+      },
+      "geometry" : {
+        "x" : -15.3101,
+        "y" : 13.443199999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 76,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 77,
+        "Country_Re" : "Georgia",
+        "Confirmed" : 639,
+        "Deaths" : 11,
+        "Recovered" : 349,
+        "Latitude" : 42.315399999999997,
+        "Longitude" : 43.356900000000003
+      },
+      "geometry" : {
+        "x" : 43.356900000000103,
+        "y" : 42.315400000000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 77,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 78,
+        "Country_Re" : "Ghana",
+        "Confirmed" : 5127,
+        "Deaths" : 22,
+        "Recovered" : 494,
+        "Latitude" : 7.9465,
+        "Longitude" : -1.0232
+      },
+      "geometry" : {
+        "x" : -1.0231999999999699,
+        "y" : 7.9465000000000696
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 78,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 79,
+        "Country_Re" : "Greece",
+        "Confirmed" : 2744,
+        "Deaths" : 152,
+        "Recovered" : 1374,
+        "Latitude" : 39.074199999999998,
+        "Longitude" : 21.824300000000001
+      },
+      "geometry" : {
+        "x" : 21.8243000000001,
+        "y" : 39.074200000000097
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 79,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 80,
+        "Country_Re" : "Grenada",
+        "Confirmed" : 21,
+        "Deaths" : 0,
+        "Recovered" : 13,
+        "Latitude" : 12.1165,
+        "Longitude" : -61.679000000000002
+      },
+      "geometry" : {
+        "x" : -61.679000000000002,
+        "y" : 12.1165
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 80,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 81,
+        "Country_Re" : "Guatemala",
+        "Confirmed" : 1114,
+        "Deaths" : 26,
+        "Recovered" : 111,
+        "Latitude" : 15.7835,
+        "Longitude" : -90.230800000000002
+      },
+      "geometry" : {
+        "x" : -90.230800000000002,
+        "y" : 15.7835000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 81,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 82,
+        "Country_Re" : "Guinea",
+        "Confirmed" : 2213,
+        "Deaths" : 11,
+        "Recovered" : 771,
+        "Latitude" : 9.945600000000001,
+        "Longitude" : -9.6966
+      },
+      "geometry" : {
+        "x" : -9.6965999999999308,
+        "y" : 9.9456000000000699
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 82,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 83,
+        "Country_Re" : "Guinea-Bissau",
+        "Confirmed" : 761,
+        "Deaths" : 3,
+        "Recovered" : 26,
+        "Latitude" : 11.803699999999999,
+        "Longitude" : -15.180400000000001
+      },
+      "geometry" : {
+        "x" : -15.180400000000001,
+        "y" : 11.803699999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 83,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 84,
+        "Country_Re" : "Guyana",
+        "Confirmed" : 109,
+        "Deaths" : 10,
+        "Recovered" : 36,
+        "Latitude" : 4.860416,
+        "Longitude" : -58.93018
+      },
+      "geometry" : {
+        "x" : -58.93018,
+        "y" : 4.8604160000000398
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 84,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 85,
+        "Country_Re" : "Haiti",
+        "Confirmed" : 209,
+        "Deaths" : 16,
+        "Recovered" : 17,
+        "Latitude" : 18.9712,
+        "Longitude" : -72.285200000000003
+      },
+      "geometry" : {
+        "x" : -72.285200000000003,
+        "y" : 18.971200000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 85,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 86,
+        "Country_Re" : "Holy See",
+        "Confirmed" : 12,
+        "Deaths" : 0,
+        "Recovered" : 2,
+        "Latitude" : 41.902900000000002,
+        "Longitude" : 12.4534
+      },
+      "geometry" : {
+        "x" : 12.4534,
+        "y" : 41.902900000000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 86,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 87,
+        "Country_Re" : "Honduras",
+        "Confirmed" : 2100,
+        "Deaths" : 116,
+        "Recovered" : 206,
+        "Latitude" : 15.199999999999999,
+        "Longitude" : -86.241900000000001
+      },
+      "geometry" : {
+        "x" : -86.241900000000001,
+        "y" : 15.199999999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 87,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 88,
+        "Country_Re" : "Hungary",
+        "Confirmed" : 3313,
+        "Deaths" : 425,
+        "Recovered" : 1007,
+        "Latitude" : 47.162500000000001,
+        "Longitude" : 19.503299999999999
+      },
+      "geometry" : {
+        "x" : 19.503299999999999,
+        "y" : 47.162500000000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 88,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 89,
+        "Country_Re" : "India",
+        "Confirmed" : 73981,
+        "Deaths" : 2408,
+        "Recovered" : 24124,
+        "Latitude" : 20.593684,
+        "Longitude" : 78.962879999999998
+      },
+      "geometry" : {
+        "x" : 78.962879999999998,
+        "y" : 20.593684000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 89,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 90,
+        "Country_Re" : "Indonesia",
+        "Confirmed" : 14749,
+        "Deaths" : 1007,
+        "Recovered" : 3063,
+        "Latitude" : -0.7893,
+        "Longitude" : 113.921300000000002
+      },
+      "geometry" : {
+        "x" : 113.9213,
+        "y" : -0.78929999999996903
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 90,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 91,
+        "Country_Re" : "Iran",
+        "Confirmed" : 110767,
+        "Deaths" : 6733,
+        "Recovered" : 88357,
+        "Latitude" : 32.427908000000002,
+        "Longitude" : 53.688046
+      },
+      "geometry" : {
+        "x" : 53.688046,
+        "y" : 32.427908000000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 91,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 92,
+        "Country_Re" : "Iraq",
+        "Confirmed" : 2913,
+        "Deaths" : 112,
+        "Recovered" : 1903,
+        "Latitude" : 33.223191,
+        "Longitude" : 43.679290999999999
+      },
+      "geometry" : {
+        "x" : 43.679290999999999,
+        "y" : 33.223191
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 92,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 93,
+        "Country_Re" : "Israel",
+        "Confirmed" : 16526,
+        "Deaths" : 258,
+        "Recovered" : 11956,
+        "Latitude" : 31.046050999999999,
+        "Longitude" : 34.851612000000003
+      },
+      "geometry" : {
+        "x" : 34.851612000000003,
+        "y" : 31.046050999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 93,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 94,
+        "Country_Re" : "Jamaica",
+        "Confirmed" : 505,
+        "Deaths" : 9,
+        "Recovered" : 90,
+        "Latitude" : 18.1096,
+        "Longitude" : -77.297499999999999
+      },
+      "geometry" : {
+        "x" : -77.297499999999999,
+        "y" : 18.1096000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 94,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 95,
+        "Country_Re" : "Japan",
+        "Confirmed" : 15847,
+        "Deaths" : 633,
+        "Recovered" : 8293,
+        "Latitude" : 36.204824000000002,
+        "Longitude" : 138.252924000000007
+      },
+      "geometry" : {
+        "x" : 138.25292400000001,
+        "y" : 36.204824000000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 95,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 96,
+        "Country_Re" : "Jordan",
+        "Confirmed" : 576,
+        "Deaths" : 9,
+        "Recovered" : 390,
+        "Latitude" : 31.239999999999998,
+        "Longitude" : 36.509999999999998
+      },
+      "geometry" : {
+        "x" : 36.509999999999998,
+        "y" : 31.240000000000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 96,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 97,
+        "Country_Re" : "Kazakhstan",
+        "Confirmed" : 5279,
+        "Deaths" : 32,
+        "Recovered" : 2108,
+        "Latitude" : 48.019599999999997,
+        "Longitude" : 66.923699999999997
+      },
+      "geometry" : {
+        "x" : 66.923700000000096,
+        "y" : 48.019599999999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 97,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 98,
+        "Country_Re" : "Kenya",
+        "Confirmed" : 715,
+        "Deaths" : 36,
+        "Recovered" : 259,
+        "Latitude" : -0.0236,
+        "Longitude" : 37.906199999999998
+      },
+      "geometry" : {
+        "x" : 37.906200000000098,
+        "y" : -0.023599999999930801
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 98,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 99,
+        "Country_Re" : "Korea, South",
+        "Confirmed" : 10936,
+        "Deaths" : 258,
+        "Recovered" : 9670,
+        "Latitude" : 35.907756999999997,
+        "Longitude" : 127.766921999999994
+      },
+      "geometry" : {
+        "x" : 127.76692199999999,
+        "y" : 35.907757000000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 99,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 100,
+        "Country_Re" : "Kosovo",
+        "Confirmed" : 884,
+        "Deaths" : 28,
+        "Recovered" : 655,
+        "Latitude" : 42.602635999999997,
+        "Longitude" : 20.902977
+      },
+      "geometry" : {
+        "x" : 20.902977000000099,
+        "y" : 42.602636000000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 100,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 101,
+        "Country_Re" : "Kuwait",
+        "Confirmed" : 10277,
+        "Deaths" : 75,
+        "Recovered" : 3101,
+        "Latitude" : 29.31166,
+        "Longitude" : 47.481766
+      },
+      "geometry" : {
+        "x" : 47.4817660000001,
+        "y" : 29.311660000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 101,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 102,
+        "Country_Re" : "Kyrgyzstan",
+        "Confirmed" : 1037,
+        "Deaths" : 12,
+        "Recovered" : 709,
+        "Latitude" : 41.20438,
+        "Longitude" : 74.766098
+      },
+      "geometry" : {
+        "x" : 74.766098000000099,
+        "y" : 41.2043800000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 102,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 103,
+        "Country_Re" : "Laos",
+        "Confirmed" : 19,
+        "Deaths" : 0,
+        "Recovered" : 13,
+        "Latitude" : 19.856269999999999,
+        "Longitude" : 102.495496000000003
+      },
+      "geometry" : {
+        "x" : 102.495496,
+        "y" : 19.856270000000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 103,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 104,
+        "Country_Re" : "Latvia",
+        "Confirmed" : 950,
+        "Deaths" : 18,
+        "Recovered" : 627,
+        "Latitude" : 56.879600000000003,
+        "Longitude" : 24.603200000000001
+      },
+      "geometry" : {
+        "x" : 24.603200000000101,
+        "y" : 56.879600000000003
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 104,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 105,
+        "Country_Re" : "Lebanon",
+        "Confirmed" : 870,
+        "Deaths" : 26,
+        "Recovered" : 234,
+        "Latitude" : 33.854700000000001,
+        "Longitude" : 35.862299999999998
+      },
+      "geometry" : {
+        "x" : 35.862300000000097,
+        "y" : 33.854700000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 105,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 106,
+        "Country_Re" : "Liberia",
+        "Confirmed" : 211,
+        "Deaths" : 20,
+        "Recovered" : 85,
+        "Latitude" : 6.428055,
+        "Longitude" : -9.429499
+      },
+      "geometry" : {
+        "x" : -9.4294989999999608,
+        "y" : 6.4280550000000298
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 106,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 107,
+        "Country_Re" : "Libya",
+        "Confirmed" : 64,
+        "Deaths" : 3,
+        "Recovered" : 28,
+        "Latitude" : 26.335100000000001,
+        "Longitude" : 17.228331000000001
+      },
+      "geometry" : {
+        "x" : 17.228331000000001,
+        "y" : 26.3351000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 107,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 108,
+        "Country_Re" : "Liechtenstein",
+        "Confirmed" : 82,
+        "Deaths" : 1,
+        "Recovered" : 55,
+        "Latitude" : 47.140000000000001,
+        "Longitude" : 9.550000000000001
+      },
+      "geometry" : {
+        "x" : 9.55000000000007,
+        "y" : 47.140000000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 108,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 109,
+        "Country_Re" : "Lithuania",
+        "Confirmed" : 1491,
+        "Deaths" : 50,
+        "Recovered" : 850,
+        "Latitude" : 55.169400000000003,
+        "Longitude" : 23.8813
+      },
+      "geometry" : {
+        "x" : 23.881300000000099,
+        "y" : 55.169400000000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 109,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 110,
+        "Country_Re" : "Luxembourg",
+        "Confirmed" : 3894,
+        "Deaths" : 102,
+        "Recovered" : 3610,
+        "Latitude" : 49.815300000000001,
+        "Longitude" : 6.1296
+      },
+      "geometry" : {
+        "x" : 6.1296000000000399,
+        "y" : 49.815300000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 110,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 111,
+        "Country_Re" : "MS Zaandam",
+        "Confirmed" : 9,
+        "Deaths" : 2,
+        "Recovered" : 0,
+        "Latitude" : 0.0,
+        "Longitude" : 0.0
+      },
+      "geometry" : {
+        "x" : "NaN",
+        "y" : "NaN"
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 111,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 112,
+        "Country_Re" : "Madagascar",
+        "Confirmed" : 186,
+        "Deaths" : 0,
+        "Recovered" : 101,
+        "Latitude" : -18.766946999999998,
+        "Longitude" : 46.869107
+      },
+      "geometry" : {
+        "x" : 46.869107,
+        "y" : -18.766946999999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 112,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 113,
+        "Country_Re" : "Malawi",
+        "Confirmed" : 57,
+        "Deaths" : 3,
+        "Recovered" : 24,
+        "Latitude" : -13.254308,
+        "Longitude" : 34.301524999999998
+      },
+      "geometry" : {
+        "x" : 34.301524999999998,
+        "y" : -13.254308
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 113,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 114,
+        "Country_Re" : "Malaysia",
+        "Confirmed" : 6742,
+        "Deaths" : 109,
+        "Recovered" : 5223,
+        "Latitude" : 4.210484,
+        "Longitude" : 101.975765999999993
+      },
+      "geometry" : {
+        "x" : 101.97576599999999,
+        "y" : 4.2104840000000703
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 114,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 115,
+        "Country_Re" : "Maldives",
+        "Confirmed" : 904,
+        "Deaths" : 3,
+        "Recovered" : 29,
+        "Latitude" : 3.2028,
+        "Longitude" : 73.220699999999994
+      },
+      "geometry" : {
+        "x" : 73.220700000000093,
+        "y" : 3.2028000000000199
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 115,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 116,
+        "Country_Re" : "Mali",
+        "Confirmed" : 712,
+        "Deaths" : 39,
+        "Recovered" : 377,
+        "Latitude" : 17.570692000000001,
+        "Longitude" : -3.996166
+      },
+      "geometry" : {
+        "x" : -3.9961659999999601,
+        "y" : 17.570692000000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 116,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 117,
+        "Country_Re" : "Malta",
+        "Confirmed" : 506,
+        "Deaths" : 5,
+        "Recovered" : 434,
+        "Latitude" : 35.9375,
+        "Longitude" : 14.375400000000001
+      },
+      "geometry" : {
+        "x" : 14.3754000000001,
+        "y" : 35.937500000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 117,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 118,
+        "Country_Re" : "Mauritania",
+        "Confirmed" : 8,
+        "Deaths" : 1,
+        "Recovered" : 6,
+        "Latitude" : 21.007899999999999,
+        "Longitude" : -10.940799999999999
+      },
+      "geometry" : {
+        "x" : -10.940799999999999,
+        "y" : 21.007900000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 118,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 119,
+        "Country_Re" : "Mauritius",
+        "Confirmed" : 332,
+        "Deaths" : 10,
+        "Recovered" : 322,
+        "Latitude" : -20.348403999999999,
+        "Longitude" : 57.552152
+      },
+      "geometry" : {
+        "x" : 57.552152,
+        "y" : -20.348403999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 119,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 120,
+        "Country_Re" : "Mexico",
+        "Confirmed" : 36327,
+        "Deaths" : 3573,
+        "Recovered" : 23100,
+        "Latitude" : 23.634499999999999,
+        "Longitude" : -102.552800000000005
+      },
+      "geometry" : {
+        "x" : -102.5528,
+        "y" : 23.634500000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 120,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 121,
+        "Country_Re" : "Moldova",
+        "Confirmed" : 4995,
+        "Deaths" : 175,
+        "Recovered" : 1980,
+        "Latitude" : 47.4116,
+        "Longitude" : 28.369900000000001
+      },
+      "geometry" : {
+        "x" : 28.369900000000001,
+        "y" : 47.411600000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 121,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 122,
+        "Country_Re" : "Monaco",
+        "Confirmed" : 96,
+        "Deaths" : 4,
+        "Recovered" : 85,
+        "Latitude" : 43.7333,
+        "Longitude" : 7.4167
+      },
+      "geometry" : {
+        "x" : 7.4167000000000503,
+        "y" : 43.7333
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 122,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 123,
+        "Country_Re" : "Mongolia",
+        "Confirmed" : 42,
+        "Deaths" : 0,
+        "Recovered" : 15,
+        "Latitude" : 46.862499999999997,
+        "Longitude" : 103.846699999999998
+      },
+      "geometry" : {
+        "x" : 103.8467,
+        "y" : 46.862500000000097
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 123,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 124,
+        "Country_Re" : "Montenegro",
+        "Confirmed" : 324,
+        "Deaths" : 9,
+        "Recovered" : 298,
+        "Latitude" : 42.708677999999999,
+        "Longitude" : 19.374389999999998
+      },
+      "geometry" : {
+        "x" : 19.374390000000101,
+        "y" : 42.708678000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 124,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 125,
+        "Country_Re" : "Morocco",
+        "Confirmed" : 6380,
+        "Deaths" : 188,
+        "Recovered" : 2930,
+        "Latitude" : 31.791699999999999,
+        "Longitude" : -7.0926
+      },
+      "geometry" : {
+        "x" : -7.0925999999999503,
+        "y" : 31.791699999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 125,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 126,
+        "Country_Re" : "Mozambique",
+        "Confirmed" : 103,
+        "Deaths" : 0,
+        "Recovered" : 34,
+        "Latitude" : -18.665694999999999,
+        "Longitude" : 35.529561999999999
+      },
+      "geometry" : {
+        "x" : 35.529562000000098,
+        "y" : -18.665694999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 126,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 127,
+        "Country_Re" : "Namibia",
+        "Confirmed" : 16,
+        "Deaths" : 0,
+        "Recovered" : 11,
+        "Latitude" : -22.957599999999999,
+        "Longitude" : 18.490400000000001
+      },
+      "geometry" : {
+        "x" : 18.490400000000001,
+        "y" : -22.957599999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 127,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 128,
+        "Country_Re" : "Nepal",
+        "Confirmed" : 191,
+        "Deaths" : 0,
+        "Recovered" : 33,
+        "Latitude" : 28.166699999999999,
+        "Longitude" : 84.25
+      },
+      "geometry" : {
+        "x" : 84.250000000000099,
+        "y" : 28.166699999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 128,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 129,
+        "Country_Re" : "New Zealand",
+        "Confirmed" : 1497,
+        "Deaths" : 21,
+        "Recovered" : 1398,
+        "Latitude" : -40.900599999999997,
+        "Longitude" : 174.885999999999996
+      },
+      "geometry" : {
+        "x" : 174.886,
+        "y" : -40.900599999999898
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 129,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 130,
+        "Country_Re" : "Nicaragua",
+        "Confirmed" : 16,
+        "Deaths" : 5,
+        "Recovered" : 7,
+        "Latitude" : 12.865416,
+        "Longitude" : -85.207228999999998
+      },
+      "geometry" : {
+        "x" : -85.207228999999998,
+        "y" : 12.865416
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 130,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 131,
+        "Country_Re" : "Niger",
+        "Confirmed" : 832,
+        "Deaths" : 46,
+        "Recovered" : 637,
+        "Latitude" : 17.607789,
+        "Longitude" : 8.081666
+      },
+      "geometry" : {
+        "x" : 8.0816660000000393,
+        "y" : 17.607789
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 131,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 132,
+        "Country_Re" : "Nigeria",
+        "Confirmed" : 4641,
+        "Deaths" : 150,
+        "Recovered" : 902,
+        "Latitude" : 9.082000000000001,
+        "Longitude" : 8.6753
+      },
+      "geometry" : {
+        "x" : 8.6753000000000497,
+        "y" : 9.0820000000000505
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 132,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 133,
+        "Country_Re" : "North Macedonia",
+        "Confirmed" : 1674,
+        "Deaths" : 92,
+        "Recovered" : 1205,
+        "Latitude" : 41.608600000000003,
+        "Longitude" : 21.7453
+      },
+      "geometry" : {
+        "x" : 21.7453,
+        "y" : 41.608600000000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 133,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 134,
+        "Country_Re" : "Oman",
+        "Confirmed" : 3721,
+        "Deaths" : 17,
+        "Recovered" : 1250,
+        "Latitude" : 21.512582999999999,
+        "Longitude" : 55.923254999999997
+      },
+      "geometry" : {
+        "x" : 55.923254999999997,
+        "y" : 21.512583000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 134,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 135,
+        "Country_Re" : "Pakistan",
+        "Confirmed" : 32674,
+        "Deaths" : 724,
+        "Recovered" : 8555,
+        "Latitude" : 30.375299999999999,
+        "Longitude" : 69.345100000000002
+      },
+      "geometry" : {
+        "x" : 69.345100000000102,
+        "y" : 30.375299999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 135,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 136,
+        "Country_Re" : "Panama",
+        "Confirmed" : 8616,
+        "Deaths" : 249,
+        "Recovered" : 4687,
+        "Latitude" : 8.538,
+        "Longitude" : -80.7821
+      },
+      "geometry" : {
+        "x" : -80.7821,
+        "y" : 8.5380000000000695
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 136,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 137,
+        "Country_Re" : "Papua New Guinea",
+        "Confirmed" : 8,
+        "Deaths" : 0,
+        "Recovered" : 8,
+        "Latitude" : -6.314993,
+        "Longitude" : 143.955549999999988
+      },
+      "geometry" : {
+        "x" : 143.95554999999999,
+        "y" : -6.3149929999999603
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 137,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 138,
+        "Country_Re" : "Paraguay",
+        "Confirmed" : 724,
+        "Deaths" : 10,
+        "Recovered" : 170,
+        "Latitude" : -23.442499999999999,
+        "Longitude" : -58.443800000000003
+      },
+      "geometry" : {
+        "x" : -58.443800000000003,
+        "y" : -23.4424999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 138,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 139,
+        "Country_Re" : "Peru",
+        "Confirmed" : 68822,
+        "Deaths" : 1961,
+        "Recovered" : 22406,
+        "Latitude" : -9.19,
+        "Longitude" : -75.015199999999993
+      },
+      "geometry" : {
+        "x" : -75.015199999999894,
+        "y" : -9.1899999999999409
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 139,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 140,
+        "Country_Re" : "Philippines",
+        "Confirmed" : 11350,
+        "Deaths" : 751,
+        "Recovered" : 2106,
+        "Latitude" : 12.879721,
+        "Longitude" : 121.774017000000001
+      },
+      "geometry" : {
+        "x" : 121.774017,
+        "y" : 12.879721000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 140,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 141,
+        "Country_Re" : "Poland",
+        "Confirmed" : 16921,
+        "Deaths" : 839,
+        "Recovered" : 6131,
+        "Latitude" : 51.919400000000003,
+        "Longitude" : 19.145099999999999
+      },
+      "geometry" : {
+        "x" : 19.145100000000099,
+        "y" : 51.919400000000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 141,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 142,
+        "Country_Re" : "Portugal",
+        "Confirmed" : 27913,
+        "Deaths" : 1163,
+        "Recovered" : 3013,
+        "Latitude" : 39.399900000000002,
+        "Longitude" : -8.224500000000001
+      },
+      "geometry" : {
+        "x" : -8.2244999999999795,
+        "y" : 39.399900000000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 142,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 143,
+        "Country_Re" : "Qatar",
+        "Confirmed" : 25149,
+        "Deaths" : 14,
+        "Recovered" : 3019,
+        "Latitude" : 25.354800000000001,
+        "Longitude" : 51.183900000000001
+      },
+      "geometry" : {
+        "x" : 51.183900000000101,
+        "y" : 25.3548000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 143,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 144,
+        "Country_Re" : "Romania",
+        "Confirmed" : 15778,
+        "Deaths" : 1002,
+        "Recovered" : 7685,
+        "Latitude" : 45.943199999999997,
+        "Longitude" : 24.966799999999999
+      },
+      "geometry" : {
+        "x" : 24.966799999999999,
+        "y" : 45.943199999999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 144,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 145,
+        "Country_Re" : "Rwanda",
+        "Confirmed" : 285,
+        "Deaths" : 0,
+        "Recovered" : 150,
+        "Latitude" : -1.9403,
+        "Longitude" : 29.873899999999999
+      },
+      "geometry" : {
+        "x" : 29.873899999999999,
+        "y" : -1.9402999999999799
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 145,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 146,
+        "Country_Re" : "Saint Kitts and Nevis",
+        "Confirmed" : 15,
+        "Deaths" : 0,
+        "Recovered" : 14,
+        "Latitude" : 17.357821999999999,
+        "Longitude" : -62.782997999999999
+      },
+      "geometry" : {
+        "x" : -62.782997999999999,
+        "y" : 17.357822000000098
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 146,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 147,
+        "Country_Re" : "Saint Lucia",
+        "Confirmed" : 18,
+        "Deaths" : 0,
+        "Recovered" : 17,
+        "Latitude" : 13.9094,
+        "Longitude" : -60.978900000000003
+      },
+      "geometry" : {
+        "x" : -60.978900000000003,
+        "y" : 13.909400000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 147,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 148,
+        "Country_Re" : "Saint Vincent and the Grenadines",
+        "Confirmed" : 17,
+        "Deaths" : 0,
+        "Recovered" : 9,
+        "Latitude" : 12.984299999999999,
+        "Longitude" : -61.287199999999999
+      },
+      "geometry" : {
+        "x" : -61.287199999999999,
+        "y" : 12.984300000000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 148,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 149,
+        "Country_Re" : "San Marino",
+        "Confirmed" : 638,
+        "Deaths" : 41,
+        "Recovered" : 161,
+        "Latitude" : 43.942399999999999,
+        "Longitude" : 12.457800000000001
+      },
+      "geometry" : {
+        "x" : 12.4578000000001,
+        "y" : 43.942400000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 149,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 150,
+        "Country_Re" : "Sao Tome and Principe",
+        "Confirmed" : 208,
+        "Deaths" : 5,
+        "Recovered" : 4,
+        "Latitude" : 0.18636,
+        "Longitude" : 6.613081
+      },
+      "geometry" : {
+        "x" : 6.6130810000000197,
+        "y" : 0.186360000000036
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 150,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 151,
+        "Country_Re" : "Saudi Arabia",
+        "Confirmed" : 42925,
+        "Deaths" : 264,
+        "Recovered" : 15257,
+        "Latitude" : 23.885942,
+        "Longitude" : 45.079161999999997
+      },
+      "geometry" : {
+        "x" : 45.079162000000103,
+        "y" : 23.885942000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 151,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 152,
+        "Country_Re" : "Senegal",
+        "Confirmed" : 1995,
+        "Deaths" : 19,
+        "Recovered" : 742,
+        "Latitude" : 14.497400000000001,
+        "Longitude" : -14.452400000000001
+      },
+      "geometry" : {
+        "x" : -14.452400000000001,
+        "y" : 14.497400000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 152,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 153,
+        "Country_Re" : "Serbia",
+        "Confirmed" : 10176,
+        "Deaths" : 218,
+        "Recovered" : 3290,
+        "Latitude" : 44.016500000000001,
+        "Longitude" : 21.0059
+      },
+      "geometry" : {
+        "x" : 21.0059000000001,
+        "y" : 44.0165000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 153,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 154,
+        "Country_Re" : "Seychelles",
+        "Confirmed" : 11,
+        "Deaths" : 0,
+        "Recovered" : 10,
+        "Latitude" : -4.6796,
+        "Longitude" : 55.491999999999997
+      },
+      "geometry" : {
+        "x" : 55.492000000000097,
+        "y" : -4.6795999999999403
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 154,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 155,
+        "Country_Re" : "Sierra Leone",
+        "Confirmed" : 338,
+        "Deaths" : 19,
+        "Recovered" : 72,
+        "Latitude" : 8.460554999999999,
+        "Longitude" : -11.779889000000001
+      },
+      "geometry" : {
+        "x" : -11.779889000000001,
+        "y" : 8.4605550000000598
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 155,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 156,
+        "Country_Re" : "Singapore",
+        "Confirmed" : 24671,
+        "Deaths" : 21,
+        "Recovered" : 3851,
+        "Latitude" : 1.2833,
+        "Longitude" : 103.833299999999994
+      },
+      "geometry" : {
+        "x" : 103.83329999999999,
+        "y" : 1.2833000000000501
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 156,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 157,
+        "Country_Re" : "Slovakia",
+        "Confirmed" : 1465,
+        "Deaths" : 27,
+        "Recovered" : 983,
+        "Latitude" : 48.668999999999997,
+        "Longitude" : 19.699000000000002
+      },
+      "geometry" : {
+        "x" : 19.699000000000101,
+        "y" : 48.668999999999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 157,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 158,
+        "Country_Re" : "Slovenia",
+        "Confirmed" : 1461,
+        "Deaths" : 102,
+        "Recovered" : 259,
+        "Latitude" : 46.151200000000003,
+        "Longitude" : 14.9955
+      },
+      "geometry" : {
+        "x" : 14.995500000000099,
+        "y" : 46.151200000000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 158,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 159,
+        "Country_Re" : "Somalia",
+        "Confirmed" : 1089,
+        "Deaths" : 52,
+        "Recovered" : 121,
+        "Latitude" : 5.152149,
+        "Longitude" : 46.199615999999999
+      },
+      "geometry" : {
+        "x" : 46.199615999999999,
+        "y" : 5.1521490000000698
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 159,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 160,
+        "Country_Re" : "South Africa",
+        "Confirmed" : 11350,
+        "Deaths" : 206,
+        "Recovered" : 4357,
+        "Latitude" : -30.5595,
+        "Longitude" : 22.9375
+      },
+      "geometry" : {
+        "x" : 22.937500000000099,
+        "y" : -30.5595
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 160,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 161,
+        "Country_Re" : "South Sudan",
+        "Confirmed" : 156,
+        "Deaths" : 0,
+        "Recovered" : 2,
+        "Latitude" : 6.877,
+        "Longitude" : 31.306999999999999
+      },
+      "geometry" : {
+        "x" : 31.307000000000102,
+        "y" : 6.8770000000000699
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 161,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 162,
+        "Country_Re" : "Spain",
+        "Confirmed" : 227436,
+        "Deaths" : 26744,
+        "Recovered" : 137139,
+        "Latitude" : 40.463667000000001,
+        "Longitude" : -3.74922
+      },
+      "geometry" : {
+        "x" : -3.7492199999999798,
+        "y" : 40.463667000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 162,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 163,
+        "Country_Re" : "Sri Lanka",
+        "Confirmed" : 879,
+        "Deaths" : 9,
+        "Recovered" : 366,
+        "Latitude" : 7.873054,
+        "Longitude" : 80.771797000000007
+      },
+      "geometry" : {
+        "x" : 80.771797000000007,
+        "y" : 7.8730540000000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 163,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 164,
+        "Country_Re" : "Sudan",
+        "Confirmed" : 1526,
+        "Deaths" : 74,
+        "Recovered" : 161,
+        "Latitude" : 12.8628,
+        "Longitude" : 30.217600000000001
+      },
+      "geometry" : {
+        "x" : 30.2176000000001,
+        "y" : 12.862800000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 164,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 165,
+        "Country_Re" : "Suriname",
+        "Confirmed" : 10,
+        "Deaths" : 1,
+        "Recovered" : 9,
+        "Latitude" : 3.9193,
+        "Longitude" : -56.027799999999999
+      },
+      "geometry" : {
+        "x" : -56.027799999999999,
+        "y" : 3.9193000000000202
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 165,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 166,
+        "Country_Re" : "Syria",
+        "Confirmed" : 47,
+        "Deaths" : 3,
+        "Recovered" : 29,
+        "Latitude" : 34.802075000000002,
+        "Longitude" : 38.996814999999998
+      },
+      "geometry" : {
+        "x" : 38.996814999999998,
+        "y" : 34.802075000000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 166,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 167,
+        "Country_Re" : "Taiwan*",
+        "Confirmed" : 440,
+        "Deaths" : 7,
+        "Recovered" : 372,
+        "Latitude" : 23.699999999999999,
+        "Longitude" : 121.0
+      },
+      "geometry" : {
+        "x" : 121,
+        "y" : 23.699999999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 167,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 168,
+        "Country_Re" : "Tajikistan",
+        "Confirmed" : 661,
+        "Deaths" : 21,
+        "Recovered" : 0,
+        "Latitude" : 38.861033999999997,
+        "Longitude" : 71.276093000000003
+      },
+      "geometry" : {
+        "x" : 71.276093000000103,
+        "y" : 38.861034000000103
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 168,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 169,
+        "Country_Re" : "Tanzania",
+        "Confirmed" : 509,
+        "Deaths" : 21,
+        "Recovered" : 183,
+        "Latitude" : -6.369028,
+        "Longitude" : 34.888821999999998
+      },
+      "geometry" : {
+        "x" : 34.888822000000097,
+        "y" : -6.3690279999999602
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 169,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 170,
+        "Country_Re" : "Thailand",
+        "Confirmed" : 3017,
+        "Deaths" : 56,
+        "Recovered" : 2798,
+        "Latitude" : 15.870032,
+        "Longitude" : 100.992541000000003
+      },
+      "geometry" : {
+        "x" : 100.992541,
+        "y" : 15.870032
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 170,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 171,
+        "Country_Re" : "Timor-Leste",
+        "Confirmed" : 24,
+        "Deaths" : 0,
+        "Recovered" : 21,
+        "Latitude" : -8.874217,
+        "Longitude" : 125.727538999999993
+      },
+      "geometry" : {
+        "x" : 125.72753899999999,
+        "y" : -8.8742169999999305
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 171,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 172,
+        "Country_Re" : "Togo",
+        "Confirmed" : 181,
+        "Deaths" : 11,
+        "Recovered" : 89,
+        "Latitude" : 8.6195,
+        "Longitude" : 0.8248
+      },
+      "geometry" : {
+        "x" : 0.82480000000003895,
+        "y" : 8.6195000000000697
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 172,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 173,
+        "Country_Re" : "Trinidad and Tobago",
+        "Confirmed" : 116,
+        "Deaths" : 8,
+        "Recovered" : 107,
+        "Latitude" : 10.691800000000001,
+        "Longitude" : -61.222499999999997
+      },
+      "geometry" : {
+        "x" : -61.222499999999997,
+        "y" : 10.6918000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 173,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 174,
+        "Country_Re" : "Tunisia",
+        "Confirmed" : 1032,
+        "Deaths" : 45,
+        "Recovered" : 727,
+        "Latitude" : 33.886916999999997,
+        "Longitude" : 9.537499
+      },
+      "geometry" : {
+        "x" : 9.5374990000000306,
+        "y" : 33.886916999999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 174,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 175,
+        "Country_Re" : "Turkey",
+        "Confirmed" : 139771,
+        "Deaths" : 3841,
+        "Recovered" : 95780,
+        "Latitude" : 38.963700000000003,
+        "Longitude" : 35.243299999999998
+      },
+      "geometry" : {
+        "x" : 35.243299999999998,
+        "y" : 38.963700000000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 175,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 176,
+        "Country_Re" : "Uganda",
+        "Confirmed" : 122,
+        "Deaths" : 0,
+        "Recovered" : 55,
+        "Latitude" : 1.373333,
+        "Longitude" : 32.290275000000001
+      },
+      "geometry" : {
+        "x" : 32.290275000000101,
+        "y" : 1.3733330000000601
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 176,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 177,
+        "Country_Re" : "Ukraine",
+        "Confirmed" : 16023,
+        "Deaths" : 425,
+        "Recovered" : 3373,
+        "Latitude" : 48.379399999999997,
+        "Longitude" : 31.165600000000001
+      },
+      "geometry" : {
+        "x" : 31.165600000000001,
+        "y" : 48.379399999999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 177,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 178,
+        "Country_Re" : "United Arab Emirates",
+        "Confirmed" : 19661,
+        "Deaths" : 203,
+        "Recovered" : 6012,
+        "Latitude" : 23.424075999999999,
+        "Longitude" : 53.847817999999997
+      },
+      "geometry" : {
+        "x" : 53.847818000000103,
+        "y" : 23.424076000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 178,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 179,
+        "Country_Re" : "Uruguay",
+        "Confirmed" : 711,
+        "Deaths" : 19,
+        "Recovered" : 523,
+        "Latitude" : -32.522799999999997,
+        "Longitude" : -55.765799999999999
+      },
+      "geometry" : {
+        "x" : -55.765799999999999,
+        "y" : -32.522799999999997
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 179,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 180,
+        "Country_Re" : "Uzbekistan",
+        "Confirmed" : 2519,
+        "Deaths" : 10,
+        "Recovered" : 2010,
+        "Latitude" : 41.377490999999999,
+        "Longitude" : 64.585262
+      },
+      "geometry" : {
+        "x" : 64.5852620000001,
+        "y" : 41.377491000000099
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 180,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 181,
+        "Country_Re" : "Venezuela",
+        "Confirmed" : 422,
+        "Deaths" : 10,
+        "Recovered" : 205,
+        "Latitude" : 6.4238,
+        "Longitude" : -66.589699999999993
+      },
+      "geometry" : {
+        "x" : -66.589699999999894,
+        "y" : 6.4238000000000302
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 181,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 182,
+        "Country_Re" : "Vietnam",
+        "Confirmed" : 288,
+        "Deaths" : 0,
+        "Recovered" : 252,
+        "Latitude" : 14.058324000000001,
+        "Longitude" : 108.277198999999996
+      },
+      "geometry" : {
+        "x" : 108.277199,
+        "y" : 14.058324000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 182,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 183,
+        "Country_Re" : "West Bank and Gaza",
+        "Confirmed" : 375,
+        "Deaths" : 2,
+        "Recovered" : 316,
+        "Latitude" : 31.952200000000001,
+        "Longitude" : 35.233199999999997
+      },
+      "geometry" : {
+        "x" : 35.233200000000103,
+        "y" : 31.952200000000101
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 183,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 184,
+        "Country_Re" : "Western Sahara",
+        "Confirmed" : 6,
+        "Deaths" : 0,
+        "Recovered" : 6,
+        "Latitude" : 24.215499999999999,
+        "Longitude" : -12.8858
+      },
+      "geometry" : {
+        "x" : -12.8858,
+        "y" : 24.215500000000102
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 184,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 185,
+        "Country_Re" : "Yemen",
+        "Confirmed" : 65,
+        "Deaths" : 10,
+        "Recovered" : 1,
+        "Latitude" : 15.552727000000001,
+        "Longitude" : 48.516387999999999
+      },
+      "geometry" : {
+        "x" : 48.516388000000099,
+        "y" : 15.5527270000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 185,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 186,
+        "Country_Re" : "Zambia",
+        "Confirmed" : 441,
+        "Deaths" : 7,
+        "Recovered" : 117,
+        "Latitude" : -13.133896999999999,
+        "Longitude" : 27.849332
+      },
+      "geometry" : {
+        "x" : 27.8493320000001,
+        "y" : -13.1338969999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 186,
+        "Last_Updat" : 1589241600000,
+        "OBJECTID" : 187,
+        "Country_Re" : "Zimbabwe",
+        "Confirmed" : 36,
+        "Deaths" : 4,
+        "Recovered" : 9,
+        "Latitude" : -19.015438,
+        "Longitude" : 29.154857
+      },
+      "geometry" : {
+        "x" : 29.154857000000099,
+        "y" : -19.015438
+      }
+    }
+  ]
+}

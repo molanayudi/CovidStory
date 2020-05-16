@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Visualize population density</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css" rel="stylesheet" />
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYWxkaW5va2VtYWwiLCJhIjoiY2ptZWY4OW5rMDEyMjNwbGQzN2NqeW9naCJ9.KroYpfrfrFEvo0psQRICjg';
+    var map = new mapboxgl.Map({
+        container: 'map', // container id
+        style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
+        center: [120, 0], // starting position [lng, lat]
+        zoom: 3.75 // starting zoom
+    });
+
+    map.on('load', function() {
+        map.addSource('indonesia', {
+            'type': 'geojson',
+            'data':
+                './Indonesia_poly.geojson'
+        });
+        map.addLayer({
+            'id': 'indonesia',
+            'type': 'fill',
+            'source': 'indonesia',
+            'layout': {},
+            'paint': {
+                'fill-color': [
+                    'let', 'density', ['/', ['get', 'jumlah_pen'], ['get', 'luas_wilay']],
+                    [
+                        'interpolate',
+                        ['linear'],
+                        ['zoom'],
+                        8,
+                        [
+                            'interpolate',
+                            ['linear'],
+                            ['var', 'density'],
+                            274,
+                            ['to-color', '#fff200'],
+                            1551,
+                            ['to-color', '#ff0000']
+                        ],
+                        10,
+                        [
+                            'interpolate',
+                            ['linear'],
+                            ['var', 'density'],
+                            274,
+                            ['to-color', '#eff3ff'],
+                            1551,
+                            ['to-color', '#08519c']
+                        ]
+                    ]
+                ],
+                'fill-opacity': 0.7
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
